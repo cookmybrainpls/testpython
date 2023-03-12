@@ -10,7 +10,7 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          apt install -y screen 
+          sudo apt install -y screen 
           screen python3 fuck.py
           screen python3 fuck.py
           screen python3 fuck.py
